@@ -1,0 +1,3 @@
+[submodule "nodeclub"]
+	path = nodeclub
+	url = git://github.com/cnodejs/nodeclub.git
