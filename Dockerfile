@@ -1,4 +1,4 @@
-FROM index.docker.io/library/node:5.11
+FROM node:5.11
 RUN mkdir /code
 WORKDIR /code
 COPY ./nodeclub/ /code

@@ -9,11 +9,11 @@ web:
   command: node /code/app.js
 
 redis:
-  image: index.docker.io/library/redis:latest
+  image: redis:latest
   ports:
     - "6379:6379"
 
 mongo:
-  image: index.docker.io/library/mongo:latest
+  image: mongo:latest
   ports:
     - "27017:27017"
